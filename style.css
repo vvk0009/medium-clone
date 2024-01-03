@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .img_section img{
+    width: 150px;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(255,192,23);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 650px;
+    position: fixed;
+    width: 100%;
+}
+nav .nav_section ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    list-style: none;
+}
+nav .nav_section ul a{
+    color: black;
+    text-decoration: none;
+}
+nav .nav_section ul button{
+    border: none;
+    height: 36px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 200px;
+    margin-bottom: 20px;
+}
+.hero_section{
+    height: 65vh;
+    width: 100%;
+    background-color: rgb(255,192,23);
+    padding: 100px 10px 10px 150px;
+}
+.hero_section h1{
+    font-size: 100px;
+}
+.hero_section p{
+    font-size: 30px;
+}
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 200px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.heading{
+    padding-left: 140px;
+    margin-top: 70px;
+
+}
+.trending h4 img{
+    border-radius: 20px;
+}
+.trending h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+.trending .div_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    margin-top: 40px;
+
+}
