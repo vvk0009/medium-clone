@@ -34,7 +34,6 @@ nav .nav_section ul button{
     background-color: black;
     color: white;
     border-radius: 200px;
-    margin-bottom: 20px;
 }
 .hero_section{
     height: 65vh;
@@ -48,7 +47,7 @@ nav .nav_section ul button{
 .hero_section p{
     font-size: 30px;
 }
-button{
+.hero_section button{
     border: none;
     background-color: black;
     color: white;
@@ -77,4 +76,124 @@ button{
     gap: 250px;
     margin-top: 40px;
 
+}
+.topic{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 120px;
+}
+.topic .content{
+    display: flex;
+    gap: 40px;
+    margin-left: -50px;
+    margin-bottom: 50px;
+}
+.topic .content .div img{
+    border-radius: 200px;
+}
+.topic .img_section img{
+    width: 80%;
+}
+.topic .content .div button{
+    border: none;
+    border-radius: 200px;
+    height: 20px;
+    width: 50px;
+}
+
+.discover_more h1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.discover_more .buttons .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons_1 .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+
+.discover_more .buttons_1 .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 90px;
+}
+.discover_more .buttons_1 .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 120px;
+}
+.discover_more .buttons_1{
+    margin: 20px 0px;
+}
+
+.discover_more .buttons_2 .btn_1{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 140px;
+}
+
+.discover_more .buttons_2 .btn_2{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 110px;
+}
+.discover_more .buttons_2 .btn_3{
+    height: 35px;
+    border: none;
+    border-radius: 200px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 80px;
+}
+.discover_more .see p{
+    margin: 20px 0px 70px 0px;
+    color: green;
+    font-weight: 600;
+
+}
+.discover_more .footer{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
 }
