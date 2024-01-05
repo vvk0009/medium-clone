@@ -201,3 +201,10 @@ nav .nav_section ul button{
     gap: 30px;
     margin: 20px 0px;
 }
+.line{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top:72px ;
+}
