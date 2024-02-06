@@ -7,7 +7,7 @@ nav .img_section img{
     width: 150px;
 }
 nav{
-    height: 11vh;
+    height: 10vh;
     background-color: rgb(255,192,23);
     display: flex;
     align-items: center;
@@ -257,6 +257,7 @@ nav .nav_section ul button{
     font-weight: 500;
     font-size: 14px;
     width: 120px;
+    margin-top: 10px;
 }
 .mobile_discover_more .buttons_1 .btn_1{
     height: 35px;
@@ -282,36 +283,12 @@ nav .nav_section ul button{
     font-weight: 500;
     font-size: 14px;
     width: 120px;
+    margin-top: 10px;
 }
 .mobile_discover_more .buttons_1{
     margin: 20px 0px;
 }
 
-.mobile_discover_more .buttons_2 .btn_1{
-    height: 35px;
-    border: none;
-    border-radius: 200px;
-    font-weight: 500;
-    font-size: 14px;
-    width: 140px;
-}
-
-.mobile_discover_more .buttons_2 .btn_2{
-    height: 35px;
-    border: none;
-    border-radius: 200px;
-    font-weight: 500;
-    font-size: 14px;
-    width: 110px;
-}
-.mobile_discover_more .buttons_2 .btn_3{
-    height: 35px;
-    border: none;
-    border-radius: 200px;
-    font-weight: 500;
-    font-size: 14px;
-    width: 80px;
-}
 .mobile_discover_more .see p{
     margin: 20px 0px 70px 0px;
     color: green;
@@ -321,6 +298,13 @@ nav .nav_section ul button{
 footer{
     display: none;
 }
+
+@media (max-width:1246px){
+    nav{
+        height: 11.3vh;
+    }
+}
+
 
 @media (max-width:768px) {
     nav{
@@ -336,6 +320,7 @@ footer{
         position: fixed;
         top: 0;
         width: 100%;
+        height: 11.3vh;
     }
 
     .hero_section h1{
@@ -392,5 +377,14 @@ footer{
         margin-left: 20px;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .content .div h3{
+        font-size: 13px;
+    }
+    .content .div h4{
+        font-size: 13px;
+    }
+    .content .div p{
+        font-size: 11px;
     }
 }
