@@ -387,4 +387,7 @@ footer{
     .content .div p{
         font-size: 11px;
     }
+    .line{
+        display: none;
+    }
 }
